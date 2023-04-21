@@ -1,0 +1,18 @@
+.link {
+	padding: 13px 30px 10px;
+	background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
+	border-radius: 20px;
+	font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #0D0C11;
+	
+	&_transparent {
+		background: transparent;
+		border: 1px solid #FFFFFF;
+		color: #FFFFFF;
+	}
+}

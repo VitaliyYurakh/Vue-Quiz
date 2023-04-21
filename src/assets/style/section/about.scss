@@ -1,0 +1,17 @@
+.about {
+	padding: 45px 10px;
+	background: url("../img/about_bg.png") center / cover no-repeat;
+	
+	&__text {
+		padding: 0 13px;
+		font-size: 18px;
+		line-height: 23px;
+		text-align: center;
+		letter-spacing: 0.05em;
+	}
+	
+	&__quotes-right {
+		display: flex;
+		justify-content: end;
+	}
+}

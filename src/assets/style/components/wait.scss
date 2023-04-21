@@ -1,0 +1,36 @@
+.wait {
+	font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	
+	&__text {
+		font-size: 23px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	&__waiting {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 33px;
+		
+		img {
+			animation: circle 2s linear infinite;
+		}
+	}
+	
+	&__description {
+		margin-top: 27px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+}
+@keyframes circle {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}

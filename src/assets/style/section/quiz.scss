@@ -1,0 +1,145 @@
+.quiz {
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - 45px);
+	padding: 17px 0 25px;
+	background: rgba(13, 12, 17, 0.728);
+	
+	&__range {
+		width: 260px;
+		height: 11px;
+		margin: 0 auto;
+		background: rgba(242, 243, 243, .59);
+		border-radius: 10.5px;
+	}
+	
+	&__progress {
+		height: 100%;
+		background: #3BDE7C;
+		border-radius: 10.5px;
+	}
+	
+	&__wrapper {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	&__block {
+		margin: auto 0;
+	}
+	
+	&__subtitle {
+		width: 280px;
+		margin: 0 auto 20px;
+		font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 23px;
+		text-align: center;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+	
+	&__actions {
+		margin: auto auto 0;
+	}
+	
+	&__btn {
+		padding: 13px 40px 10px;
+		background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
+		border-radius: 20px;
+		border: none;
+		font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 18px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #0D0C11;
+		
+		&:disabled {
+			background: #DADADA;
+			box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.25);
+			color: #8E8E8E;
+		}
+	}
+	
+	&__img {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	
+	&__inputs {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	&__input {
+		margin-bottom: 8px;
+		padding: 10px 0;
+		background: rgba(242, 243, 243, .15);
+		
+		&.is-Active {
+			background-color: #FFC700;
+		}
+	}
+	
+	&__wrap {
+		display: grid;
+		grid-template-columns: repeat(3, 75px);
+		grid-template-rows: repeat(3, 75px);
+		grid-auto-rows: 75px;
+		grid-gap: 24px 21px;
+		justify-items: center;
+		align-items: center;
+		width: 270px;
+		margin: 0 auto;
+	}
+	
+	&__cube {
+		width: 75px;
+		height: 75px;
+		
+		&.is-Active {
+			border: 6px solid #FFC700;
+		}
+	}
+	
+	&__blocks {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 290px;
+		margin: 0 auto;
+	}
+	
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 41px;
+		height: 41px;
+		background-color: #FFFFFF;
+		font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		text-transform: capitalize;
+		color: #0D0C11;
+		
+		&.is-Active {
+			border: 6px solid #FFC700;
+		}
+	}
+	
+	&__wait {
+		margin-top: 50px;
+	}
+	
+	&__finish {
+		margin-top: 20px;
+	}
+}

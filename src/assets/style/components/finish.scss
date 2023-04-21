@@ -1,0 +1,113 @@
+.finish {
+	font-family: "PT Serif", Ariel, Helvetica, sans-serif;
+	
+	&__title {
+		margin-bottom: 10px;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 16px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+	
+	&__description {
+		margin-bottom: 22px;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		
+		span {
+			text-decoration: underline;
+		}
+	}
+	
+	&__subtitle {
+		margin-bottom: 12px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #3BDE7C;
+	}
+	
+	&__info {
+		padding: 15px 12px;
+		margin: 0 15px 5px;
+		background: #1C2741;
+		border-radius: 6px;
+		font-family: "Roboto", Ariel, Helvetica, sans-serif;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+	
+	&__text {
+		font-size: 13px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: #3BDE7C;
+	}
+	
+	&__timer {
+		margin-bottom: 6px;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: #3BDE7C;
+	}
+	
+	&__actions {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	
+	&__btn {
+		display: flex;
+		align-items: center;
+		padding: 15px 25px;
+		background: #EB1B00;
+		border-radius: 5px;
+		border: none;
+		font-family: "Roboto", Ariel, Helvetica, sans-serif;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+		letter-spacing: 0.05em;
+		text-align: left;
+	}
+	
+	&__icons {
+		display: inline-block;
+		vertical-align: middle;
+		flex: 0 0 29px;
+		width: 29px;
+		height: 29px;
+		margin-right: 18px;
+		background: url("../img/phone.png") center/cover no-repeat;
+	}
+	
+	&__list {
+		padding: 0;
+	}
+	
+	&__item {
+		margin-bottom: 10px;
+		font-family: "Roboto", Ariel, Helvetica, sans-serif;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
